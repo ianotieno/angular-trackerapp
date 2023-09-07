@@ -13,7 +13,6 @@ export class TaskService {
 
   constructor(private http:HttpClient) { }
   getTask():Observable<Task[]>{
-    const tasks =of(TASKS);
-    return tasks;
+    return this.http.get<Task[]>(this.apiUrl)
   }
 }
