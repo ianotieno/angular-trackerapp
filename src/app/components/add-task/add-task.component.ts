@@ -1,6 +1,6 @@
 import { Component, OnInit ,Output,EventEmitter} from '@angular/core';
 import { Task } from 'src/app/Task';
-
+import { UiService } from 'src/app/services/ui.service';
 @Component({
   selector: 'app-add-task',
   templateUrl: './add-task.component.html',
@@ -11,8 +11,9 @@ export class AddTaskComponent implements OnInit{
   text!:string;
   day!:string;
   reminder:boolean =false;
+  showAddTask:boolean;
   
-  constructor(){}
+  constructor(private uiService:UiService){}
   ngOnInit(): void { }
 
  onSubmit(){
