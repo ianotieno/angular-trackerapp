@@ -4,8 +4,9 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { AboutComponent } from './components/about/about.component';
 
 const routes: Routes = [
-  {path:'about',component:AboutComponent},
-  {path:'',component:TasksComponent}
+  {path:'',component:TasksComponent},
+  {path:'about',component:AboutComponent}
+ 
 ]
 ;
 
