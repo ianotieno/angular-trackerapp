@@ -10,7 +10,11 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
+import { Routes } from '@angular/router';
+import { AboutComponent } from './components/about/about.component';
+ 
 
+  
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +22,8 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
     ButtonComponent,
     TasksComponent,
     TaskItemComponent,
-    AddTaskComponent
+    AddTaskComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
