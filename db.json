@@ -17,6 +17,13 @@
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
       "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Eat Out",
+      "day": "May 16th at 7:30pm",
+      "reminder": false
     }
   ]
+  
 }
